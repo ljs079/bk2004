@@ -1,0 +1,110 @@
+
+input{
+  clear: both;
+  margin: 0;
+  text-align: start;
+}
+
+
+.fenlei{
+  width: 1200px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+.fenlei .zhulei{
+  width: 1160px;
+  height: 108px;
+  display: flex;
+  justify-content: center;
+
+}
+.fenlei .zhulei span{
+  display: block;
+  width: 148px;
+  height: 36px;
+  font-size: 15px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.fenlei .zhulei ul{
+  width: 1000px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fenlei .zhulei ul li{
+  width: 141px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+
+.paixu{
+display: flex;
+width: 200px;
+height: 60px;
+
+
+
+}
+.paixu .active{
+  color: aliceblue;
+  background-color: red;
+}
+
+.paixu div{
+  width: 100px;
+  height: 60px;
+  color: black;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+}
+.active{
+  color: red;
+}
+
+
+
+
+.xinpin .pianyou{
+  width: 1200px;
+  height: 72px;
+  font-size: 20px;
+  
+  background-color: white;
+}
+.xinpin .pianyou .M-box {
+  float: right;
+  margin-right: 100px;
+  margin-top: 25px;
+  height: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.xinpin .pianyou .M-box a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  background-color: gray;
+  width: 28px;
+  height: 28px;
+  margin: 0 5px;
+  line-height: 28px;
+
+}
+.xinpin .pianyou .M-box span{
+  background-color:red;
+  color: gray;
+  text-align: center;
+  width: 28px;
+  height: 28px;
+  margin: 0 5px;
+  line-height: 28px
+}
