@@ -114,11 +114,7 @@ $('.goodsDesc').html(info.goods_introduce)
   
     const cart = JSON.parse(window.localStorage.getItem('cart')) || []
     info.value=value
-    console.log(info)
-    
-    console.log(info.id)
-    console.log(ids)
-    
+   
     const flag = cart.some(item => item.id === ids)
     
     if (flag) {
@@ -160,7 +156,7 @@ $('.goodsDesc').html(info.goods_introduce)
 
 
 $('.enlargeBox').on('mouseover','.show',function (e) {
-  console.log(123)
+ 
   $('.enlarge').css('display', 'flex');
   $('.mask').css('display', 'block');
 })
@@ -170,7 +166,7 @@ $('.enlargeBox').on('mousemove','.show',function (e) {
 
   var pageX = e.pageX;
   var pageY = e.pageY;
-console.log(pageX)
+
 
   var offsetX = $('.show').offset().left;
   var offsetY = $('.show').offset().top;
@@ -180,7 +176,7 @@ var magOffsetX = $('.mask').width() / 2;
   
   var relativeX = pageX - offsetX;
   var relativeY = pageY - offsetY;
-console.log(relativeX)
+
   
   $('.mask').css({ left: relativeX - magOffsetX + 'px',
       top: relativeY - magOffsetY + 'px' });
